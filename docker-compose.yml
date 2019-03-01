@@ -1,8 +1,7 @@
 version: '3.4'
 services:
-    dappnodepackage-iexec-worker.public.dappnode.eth:
-      image: 'dappnodepackage-iexec-worker.public.dappnode.eth:0.0.1'
-      build: ./build
+    core:
+      image: iexec-worker:31dc033-json
       environment:  
           - IEXEC_CORE_HOST=api-test-kovan-pool.iex.ec
           - IEXEC_CORE_PORT=18090
