@@ -1,7 +1,7 @@
 version: '3.4'
 services:
     core:
-      image: iexec-worker:31dc033-json
+      image: iexechub/iexec-worker:31dc033-json
       environment:  
           - IEXEC_CORE_HOST=api-test-kovan-pool.iex.ec
           - IEXEC_CORE_PORT=18090
